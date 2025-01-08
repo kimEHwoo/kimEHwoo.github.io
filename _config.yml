@@ -26,7 +26,7 @@ url                      : "https://kimEHwoo.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/고래logo.png"
+logo                     : "/assets/images/whale.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
@@ -113,15 +113,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "김EH우"
+  name             : "ENOWH"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "naming"
+  bio              : "KIM TAE WOO"
   location         : "Republic of Korea"
-  email            : "kimtaewoo721@gmail.com"
+  email            : # "kimtaewoo721@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "kimtaewoo721@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
