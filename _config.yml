@@ -17,18 +17,18 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "ko-KR"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Namu"
+title                    : "ENOWH"
 title_separator          : "|"
-subtitle                 : "Surfing on Now"
+subtitle                 : "Just do it"
 name                     : "EH우"
 description              : "EH우의 Blog"
 url                      : "https://kimEHwoo.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/고래logo.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs              : # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 enable_copy_code_button  : # true, false (default)
 copyright                : # "copyright" name, defaults to site.title
@@ -113,10 +113,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "EH우"
+  name             : "김EH우"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Taewoo Kim"
-  location         : "Anywhere and Nowhere"
+  bio              : "naming"
+  location         : "Republic of Korea"
   email            : "kimtaewoo721@gmail.com"
   links:
     - label: "Email"
@@ -316,10 +316,11 @@ defaults:
   - scope:
       path: ""
       type: posts
-    values:
+    values: 
       layout: single
       author_profile: true
       read_time: true
       comments: # true
       share: true
       related: true
+      show_date: true
